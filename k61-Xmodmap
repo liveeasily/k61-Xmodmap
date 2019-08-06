@@ -1,0 +1,71 @@
+! -*- coding: utf-8 -*-
+! 
+! keycode <code> = <key by itself> <Shift+key> <Mode_switch+key> <mode_switch+Shift+key> <AltGr+key> <AltGr+Shift+key>
+
+
+! set alt_l to Mode_switch 
+keycode 108 = Mode_switch NoSymbol Mode_switch NoSymbol Mode_switch
+
+! set esc to (`, ~, ESC)
+! keycode 9 = grave asciitilde Escape NoSymbol NoSymbol NoSymbol
+
+! set esc to (ESC, ~, `)
+keycode 9 = Escape asciitilde grave NoSymbol NoSymbol NoSymbol
+
+! set 1 to (1, exclam, F1)
+keycode 10 = 1 exclam F1
+
+! set 2 to (2, @, F2)
+keycode 11 = 2 at F2
+
+! set 3 to (3, #, F3)
+keycode 12 = 3 numbersign F3
+
+! set 4 to (4, $, F4)
+keycode 13 = 4 dollar F4
+
+! set 5 to (5, %, F5)
+keycode 14 = 5 percent F5
+
+! set 6 to (6, ^, F6)
+keycode 15 = 6 asciicircum F6
+
+! set 7 to (7, &, F7)
+keycode 16 = 7 ampersand F7
+
+! set 8 to (8, *, F8)
+keycode 17 = 8 asterisk F8
+
+! set 9 to (9, (, F9)
+keycode 18 = 9 parenleft F9
+
+! set 0 to (0, ), F10)
+keycode 19 = 0 parenright F10
+
+! set - to (-, _, F11)
+keycode 20 = minus underscore F11
+
+! set = to (=, +, F12)
+keycode 21 = equal plus F12
+
+! set i to (i, I, Up)
+keycode 31 = i I Up
+
+! set j to (j, J, Left)
+keycode 44 = j J Left 
+
+! set k to (k, K, Down)
+keycode 45 = k K Down 
+
+! set l to (l, L, Right)
+keycode 46 = l L Right 
+
+! set backspace to (backspace, , Del)
+keycode 22 = BackSpace NoSymbol Delete
+
+! set [ to ([, {, PageUp)
+keycode 34 =  bracketleft braceleft Prior
+
+! set ] to (], }, PageDown)
+keycode 35 = bracketright braceright Next
+
